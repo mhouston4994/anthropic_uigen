@@ -58,7 +58,7 @@ jobs:
             }
 
           # allowed_tools now goes into claude_args
-          claude_args: '--allowedTools "Bash(npm:*),Bash(sqlite3:*),mcp__playwright__browser_snapshot,mcp__playwright__browser_click,..."'
+          claude_args: '--allowedTools "Bash(npm:*),Bash(sqlite3:*),mcp__playwright__browser_snapshot,mcp__playwright__browser_click"'
 
           additional_permissions: |
             actions: read
